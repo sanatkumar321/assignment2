@@ -10,9 +10,9 @@ int main()
 	cin>>r;
 	cout<< "enter time period "<<endl;
 	cin>>t;
-	x=1+r; 
+	x=1+ r/100; 
  	ans= pow(x,t);
-	cout << "then the compound interest is " << p*ans;
+	cout << "then the compound interest is " << p*ans - p;
 	
         return 0;
 }
